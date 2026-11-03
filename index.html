@@ -110,7 +110,7 @@
             if (projectId && /^\d+$/.test(projectId)) {
                 const player = document.getElementById('scratchPlayer');
                 // Update the iframe source with the new ID
-                player.src = `https://turbowarp.org{projectId}/embed?addons=clones&username=Guest&controls=true`;
+                player.src = `https://turbowarp.org/{projectId}/embed?addons=clones&username=Guest&controls=true`;
             } else {
                 alert("Please enter a valid numeric Scratch Project ID.");
             }
